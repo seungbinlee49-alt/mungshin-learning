@@ -56,6 +56,4 @@ http://localhost:8000 에서 확인합니다. 그래프와 평가 조건 전환�
 
 저장소 **Settings → Pages → Build and deployment → Source: GitHub Actions**로 설정하면 main push 시 웹 보고서를 배포합니다. 배포 대상은 `site/`만이며 연구 데이터나 실행 서버는 포함되지 않습니다.
 
-보고서는 [e-means 프로젝트 페이지](https://e-means.github.io/)의 ‘연구 설명·비교 실험·체험 연결’ 구성을 참고했습니다. 본문·디자인·도식은 이 프로젝트를 위해 작성했습니다.
-
 실험 기준: 2026-11-02 이후 최종 동일 설정·특징 제거 기록. 보고서 정리: 2026-11-18.
