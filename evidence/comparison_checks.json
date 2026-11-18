@@ -1,0 +1,16 @@
+{
+  "cases": 450,
+  "models_evaluated": 1800,
+  "previously_trained_LR_models_reused": 45,
+  "every_case_all_negative": true,
+  "same_fixed_head_parameters_every_case": true,
+  "same_pair_scaler_all_models": true,
+  "all_LR_predictions_match_prior": true,
+  "nested_subsets": true,
+  "evaluation_photo_counts": [
+    1,
+    3
+  ],
+  "all_combinations": 96,
+  "pristine_final_test": false
+}

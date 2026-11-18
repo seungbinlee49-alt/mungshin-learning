@@ -1,0 +1,32 @@
+{
+  "representation": "Exact frozen global2724+eye20, separate species PCA8, output L2, cross64; same Front and training-photo selection everywhere.",
+  "fixed_parameters": {
+    "logistic": {
+      "lambda": 0.01
+    },
+    "linear_svm": {
+      "lambda": 0.01
+    },
+    "rbf_svm": {
+      "C": 1000.0,
+      "gamma": "scale"
+    },
+    "rank_svm": {
+      "lambda": 0.01
+    }
+  },
+  "selection": "No hyperparameter selection or outer-result adaptation. Logistic remains original lambda.01. Other heads use their first previously declared candidate; numeric regularization values do not imply equivalent capacity across losses.",
+  "common_training": "All training negatives for all heads; n positives and n*(n-1) negatives; balanced class total weights .5/.5, sum1; identical weighted training-pair scaler. RankSVM uses within-query differences as required by ranking loss, same underlying pairs.",
+  "data": "200 independent relations per user; original5fold x3 seeds, same40 heldout relations and10dog galleries per fold across all cases.",
+  "photos": "Actual train1/2/3 images using fixed path0; evaluate1photo(all3paths averaged) and3photo mean separately. Same missing-eye policy using only selected training photos.",
+  "sizes": [
+    40,
+    80,
+    120,
+    160
+  ],
+  "subsets": "Same three nested training permutations as prior curve; full160 fit once because repeats identical.",
+  "reused": "Verified original full160 fixedLR models/predictions and40/80/120 fixedLR curve records; no change to these model specifications. Other heads newly trained on exact same design.",
+  "output": "All4heads x4sizes x3training-photo counts x2evaluation counts; conditional relation bootstrap, no independent new holdout.",
+  "caveat": "Historical repeated200-set development; no pristine final test; fixed-head comparison not exhaustive optimized model comparison."
+}

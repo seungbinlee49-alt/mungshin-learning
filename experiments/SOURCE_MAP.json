@@ -1,0 +1,55 @@
+{
+  "method": "Functions copied from actual source definitions; relocated paths and data loading only. Full original files preserved separately.",
+  "pipeline.py": [
+    {
+      "file": "new200_pca_eye_compare.py",
+      "function": "Representation",
+      "packaged_name": "Representation",
+      "source_sha256": "868ff2d2c9e87d79e3aea89ad721a1147226bddb9e430be9663e92d100400fac"
+    },
+    {
+      "file": "final_model_comparison.py",
+      "function": "Front",
+      "packaged_name": "Front",
+      "source_sha256": "6ec26598e4671742df92ad76548e5060bfeb774d7e81704576559c5623584513"
+    },
+    {
+      "file": "final_model_comparison.py",
+      "function": "design",
+      "packaged_name": "design",
+      "source_sha256": "6ec26598e4671742df92ad76548e5060bfeb774d7e81704576559c5623584513"
+    },
+    {
+      "file": "final_model_comparison.py",
+      "function": "head_fit",
+      "packaged_name": "original_head_fit",
+      "source_sha256": "6ec26598e4671742df92ad76548e5060bfeb774d7e81704576559c5623584513"
+    },
+    {
+      "file": "unified_final_comparison.py",
+      "function": "head_fit",
+      "packaged_name": "head_fit",
+      "source_sha256": "bcbfb99b5f5f1cbeb9849c44515494de9681bf213ca1486e44109c0987a0487a"
+    },
+    {
+      "file": "unified_final_comparison.py",
+      "function": "evaluate",
+      "packaged_name": "evaluate",
+      "source_sha256": "bcbfb99b5f5f1cbeb9849c44515494de9681bf213ca1486e44109c0987a0487a"
+    },
+    {
+      "file": "new200_descriptor_study.py",
+      "function": "averages",
+      "packaged_name": "averages",
+      "source_sha256": "e8016089e47d353ac96252607ae691be2fb0f9145507fc9db6934ce8fb950869"
+    },
+    {
+      "file": "new200_descriptor_study.py",
+      "function": "per_owner",
+      "packaged_name": "per_owner",
+      "source_sha256": "e8016089e47d353ac96252607ae691be2fb0f9145507fc9db6934ce8fb950869"
+    }
+  ],
+  "input_feature_sha256": "754df66b4383f6e2a6ee9ff430f1b7afcf24370ec3e6269f21b50b932f86ba62",
+  "no_large_models": "Historical joblib checkpoints and installed dependency trees excluded. Run fresh comparisons or read included reference results."
+}
